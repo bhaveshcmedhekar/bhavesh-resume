@@ -1,0 +1,38 @@
+/*
+        @Project : git-repo
+        @Desc : git-repo
+        @type : git-repo
+        @Author : git-repo
+        @Date : 02262020075536;
+      */
+
+
+/* config include */
+@import "config/variables";
+@import "config/mixin";
+// @import "config/_reboot";
+
+/* reset files */
+@import "base/reset.local";
+@import "base/normalize";
+
+// @import "base/fonts";
+@import "base/base-setup";
+
+/* extented */
+
+// @import "extended/example";
+
+/* layout */
+
+//@import "layout/lyt-example";
+
+/* component */
+
+//@import "component/comp-example";
+@import "component/comp-header";
+@import "component/comp-contact";
+@import "component/comp-skills";
+@import "component/comp-list";
+@import "component/comp-projects";
+/* Bootstrap */

@@ -1,0 +1,32 @@
+.comp-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    line-height: 2.8rem;
+
+    .year {
+        text-align: right;
+    }
+
+    +.comp-list {
+        margin-top: 2rem;
+    }
+
+    &.typ-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+.bullet-points,
+.bullet-item {
+    list-style-type: disc;
+}
+
+.bullet-points {
+    padding-left: 2rem;
+    margin: 1rem 0 2rem;
+}
+
+.bullet-item {
+    // line-height: 2.8rem;
+    margin-bottom: 1rem;
+}

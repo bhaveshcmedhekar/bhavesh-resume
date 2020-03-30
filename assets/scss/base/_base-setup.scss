@@ -1,0 +1,139 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Dosis';
+    background: $clr-white;
+    font-size: 1.8rem;
+    overflow-x: hidden !important;
+    width: 100%;
+    color: $clr-base-light;
+    font-weight: $font-regular;
+    line-height: 2.3rem;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: $clr-primary;
+    }
+}
+
+.main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cm-line-break {
+    display: block;
+}
+
+.set-bg {
+    background-size: cover;
+
+    .fetch-img-src {
+        display: none;
+    }
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.2s ease-in-out;
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+        z-index: 20;
+    }
+}
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 5rem auto;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+}
+
+.main {
+    padding: 5rem 10rem 5rem;
+}
+
+// .lhs {
+//     width: 45%;
+//     float: left;
+// }
+
+// .rhs {
+//     width: 50%;
+//     float: right;
+// }
+
+.cont-wrapper {
+    display: grid;
+    grid-template-columns: 0.9fr 1.2fr;
+    grid-gap: 0 4rem;
+}
+
+.cm-title {
+    font-weight: $font-semibold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 2.2rem;
+    color: $clr-black;
+    letter-spacing: 1px;
+    margin-bottom: 1.8rem;
+}
+
+.cm-subtitle {
+    font-weight: $font-semibold;
+    font-size: 2rem;
+    color: $clr-black;
+    // margin-bottom: 1rem;
+}
+
+// .regular {
+//     font-weight: $font-regular;
+//     color: $clr-primary;
+// }
+
+.theme-text {
+    font-weight: $font-regular;
+    color: $clr-primary;
+}
+
+.cm-margin-top {
+    margin-top: 5rem;
+}
+
+
+@media(max-width:$media-lg) {
+
+    .main {
+        padding: 2rem;
+    }
+
+    .container {
+        margin: 3rem;
+        max-width: none;
+        width: auto;
+    }
+
+    .cont-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+    }
+}

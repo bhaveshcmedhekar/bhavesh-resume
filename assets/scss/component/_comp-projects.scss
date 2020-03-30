@@ -1,0 +1,46 @@
+.comp-projects {
+    .item {
+        display: inline-block;
+        // margin-right: 2rem;
+        margin-bottom: 1.2rem;
+
+
+        a {
+            display: inline-block;
+            background: $clr-black;
+            padding: 0.7rem 1.8rem;
+            color: $clr-white;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-shadow: 1px 1px 0px #000;
+            border: 1px solid $clr-white;
+            position: relative;
+
+            span {
+                position: relative;
+                z-index: 1;
+            }
+
+            &:before {
+                content: "";
+                position: absolute;
+                transition: all 0.4s ease-in-out;
+                left: 0;
+                right: 100%;
+                top: 0;
+                bottom: 0;
+                z-index: 0;
+                background: $clr-primary;
+            }
+
+            &:hover {
+                //  background: $clr-primary;
+                text-shadow: 0 0 0 4px #000;
+
+                &:before {
+                    right: 0;
+                }
+            }
+        }
+    }
+}

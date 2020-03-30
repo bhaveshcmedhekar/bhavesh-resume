@@ -1,0 +1,23 @@
+.comp-skills {
+    .item {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 1.9rem;
+    }
+
+    .progress {
+        padding-top: 0.6rem;
+        //margin-bottom: 3rem;
+
+        .pbar-border {
+            background: #f2f2f2;
+            border-radius: 3px;
+        }
+
+        .pbar-fill {
+            height: 1.5rem;
+            background: $clr-primary;
+            border-radius: 3px;
+        }
+    }
+}

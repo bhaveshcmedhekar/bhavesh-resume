@@ -1,0 +1,16 @@
+.sass-cache/**/*.scssc
+.sass-cache/*.scssc
+.sass-cache
+assets/css/*.css
+assets/css/*.map
+assets/.DS_Store
+node_modules
+Gruntfile.js
+package-lock.json
+build/**/**/*.*
+assets/fonts/.DS_Store
+assets/**/**/.DS_Store
+views/**/**/.DS_Store
+views/.DS_Store
+**/.DS_Store
+.DS_Store

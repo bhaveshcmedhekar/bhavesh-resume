@@ -1,0 +1,58 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    // font-family: 'Work Sans', sans-serif;
+    background: $clr-white;
+    font-size: get-vw(16px);
+    // letter-spacing: -0.5px;
+    overflow-x: hidden !important;
+    width: 100%;
+    color: $clr-base-light;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    &:hover {
+        text-decoration: none;
+        color: $clr-default;
+    }
+}
+
+.main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cm-line-break {
+    display: block;
+}
+
+.set-bg {
+    background-size: cover;
+    .fetch-img-src {
+        display: none;
+    }
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 0;
+    transition: all 0.2s ease-in-out;
+    &.active {
+        visibility: visible;
+        opacity: 1;
+        z-index: 20;
+    }
+}

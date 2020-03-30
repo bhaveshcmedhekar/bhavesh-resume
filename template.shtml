@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bhavesh Medhekar</title>
+    <meta name="description" content="Bhavesh Medhekar">
+
+    <!-- css group start -->
+    <!--#include virtual="view/include_css.html" -->
+    <!-- css group end -->
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="comp-header">
+                <!-- header start -->
+                <!--#include virtual="view/header.html" -->
+                <!-- header end -->
+            </div>
+        </header>
+
+        <main>
+            <div class="main">
+
+            </div>
+        </main>
+
+        <footer>
+            <!-- footer start -->
+            <!--#include virtual="view/footer.html" -->
+            <!-- footer end -->
+        </footer>
+    </div>
+    <!-- js group start -->
+    <!--#include virtual="view/include_js.html" -->
+    <!-- js group end -->
+
+</body>
+
+</html>
