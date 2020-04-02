@@ -30,3 +30,19 @@
     // line-height: 2.8rem;
     margin-bottom: 1rem;
 }
+
+
+@media only screen and (max-width: $media-xs) {
+
+    .comp-list {
+        grid-template-columns: 1fr;
+
+        +.comp-list {
+            grid-template-columns: 1fr;
+        }
+
+        .year {
+            text-align: left;
+        }
+    }
+}
