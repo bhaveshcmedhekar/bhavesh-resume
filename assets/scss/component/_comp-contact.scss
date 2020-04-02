@@ -14,3 +14,11 @@
         }
     }
 }
+
+@media(max-width:$media-md) {
+    .comp-contact {
+        .item {
+            padding-left: 3.3rem;
+        }
+    }
+}
