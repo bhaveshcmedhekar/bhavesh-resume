@@ -134,12 +134,14 @@ a {
 @media(max-width:$media-md) {
 
     html {
-        font-size: 9.2px;
+        font-size: 9.5px;
     }
 
     .main {
         padding: 3rem 2.2rem;
     }
+
+
 
     .container {
         margin: 2rem;
@@ -150,5 +152,16 @@ a {
     .cont-wrapper {
         grid-template-columns: 1fr;
         grid-gap: 4rem;
+    }
+}
+
+
+@media only screen and (max-width: $media-xs) {
+    .main {
+        padding: 2.2rem;
+    }
+
+    body {
+        color: #333;
     }
 }
