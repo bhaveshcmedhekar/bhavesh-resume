@@ -41,7 +41,7 @@
         font-weight: $font-bold;
         margin: 0 0 2rem;
         letter-spacing: 2px;
-        font-family: 'Roboto Condensed';
+        font-family: $font2;
         line-height: 7.5rem;
     }
 
@@ -52,7 +52,7 @@
     }
 
     .about {
-        margin-top: 3rem;
+        margin-top: 2.5rem;
         text-transform: none;
     }
 }
@@ -61,6 +61,25 @@
 @media only screen and (max-width: $media-lg) {
     .comp-header {
         padding: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .comp-header {
+        .profile-pic {
+            max-width: 22rem;
+        }
+
+        .cont-wrapper {
+            grid-gap: 2rem;
+        }
+    }
+
+    .profile-detail {
+        .name {
+            font-size: 5rem;
+            line-height: 5.5rem;
+        }
     }
 }
 

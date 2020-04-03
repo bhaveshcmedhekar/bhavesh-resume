@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    font-family: 'Dosis';
+    font-family: $font;
     background: $clr-white;
     font-size: 1.8rem;
     overflow-x: hidden !important;
@@ -26,6 +26,7 @@ a {
 
 .main {
     width: 100%;
+    padding: 3rem 10rem 5rem;
     overflow-x: hidden;
 }
 
@@ -68,9 +69,6 @@ a {
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
 }
 
-.main {
-    padding: 5rem 10rem 5rem;
-}
 
 // .lhs {
 //     width: 45%;
@@ -84,14 +82,14 @@ a {
 
 .cont-wrapper {
     display: grid;
-    grid-template-columns: 0.9fr 1.2fr;
-    grid-gap: 0 4rem;
+    grid-template-columns: 0.7fr 1.2fr;
+    grid-gap: 0 5.5rem;
 }
 
 .cm-title {
     font-weight: $font-semibold;
     text-transform: uppercase;
-    font-family: 'Roboto Condensed';
+    font-family: $font2;
     font-size: 2.2rem;
     color: $clr-black;
     letter-spacing: 1px;
@@ -99,8 +97,9 @@ a {
 }
 
 .cm-subtitle {
-    font-weight: $font-semibold;
-    font-size: 2rem;
+    font-weight: $font-medium;
+    font-size: 1.8rem;
+    line-height: 2rem;
     color: $clr-black;
     // margin-bottom: 1rem;
 }
@@ -116,7 +115,7 @@ a {
 }
 
 .cm-margin-top {
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 @media only screen and (max-width: $media-lg) {
@@ -128,6 +127,12 @@ a {
 @media only screen and (max-width: 768px) {
     .main {
         padding: 0 5rem 5rem 5rem;
+
+    }
+
+    .cont-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
     }
 }
 
@@ -141,17 +146,10 @@ a {
         padding: 3rem 2.2rem;
     }
 
-
-
     .container {
         margin: 2rem;
         max-width: none;
         width: auto;
-    }
-
-    .cont-wrapper {
-        grid-template-columns: 1fr;
-        grid-gap: 4rem;
     }
 }
 

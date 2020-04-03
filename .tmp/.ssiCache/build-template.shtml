@@ -14,6 +14,12 @@
 <!-- endbuild -->
 <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700|Dosis:400,500,600,700|Roboto+Condensed:400,700&display=swap"
         rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet"> -->
+
 <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
 <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     <!-- css group end -->
@@ -39,8 +45,9 @@
                 <h1 class="name">Bhavesh <span class="cm-line-break"></span> Medhekar</h1>
                 <h3 class="designation">Sr. Interface developer</h3>
                 <p class="about">
-                    Accomplished front-end developer with extensive experience building websites, HTML5, CSS3 and
-                    various web scripting technologies, web standards and project management.
+                    An accomplished front-end developer with extensive experience building websites and mobile
+                    application UI with HTML5, CSS3 and various web scripting technologies, following web standards and
+                    also skilled in project management.
                 </p>
                 <p class="about">
                     To obtain a challenging and rewarding full time position with growth and learning opportunities in
