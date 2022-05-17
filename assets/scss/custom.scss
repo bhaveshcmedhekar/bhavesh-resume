@@ -8,14 +8,15 @@
 
 
 /* config include */
+
 @import "config/variables";
 @import "config/mixin";
 // @import "config/_reboot";
 
 /* reset files */
+
 @import "base/reset.local";
 @import "base/normalize";
-
 // @import "base/fonts";
 @import "base/base-setup";
 
@@ -30,9 +31,15 @@
 /* component */
 
 //@import "component/comp-example";
+@import "component/comp-theme-selector";
 @import "component/comp-header";
 @import "component/comp-contact";
 @import "component/comp-skills";
 @import "component/comp-list";
 @import "component/comp-projects";
+@import "component/theme-1";
+@import "component/theme-2";
+@import "component/theme-3";
+@import "component/theme-4";
+
 /* Bootstrap */

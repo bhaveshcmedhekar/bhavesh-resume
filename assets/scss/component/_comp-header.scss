@@ -1,11 +1,9 @@
 .comp-header {
-    padding: 8rem 10rem 5rem;
-
+    padding: 8rem 0rem 5rem;
     .profile-pic {
         background: $clr-primary;
         border-radius: 50%;
         position: relative;
-
         &:before {
             content: "";
             background: $clr-primary;
@@ -20,12 +18,10 @@
             // border-top: 100px solid $clr-primary;
         }
     }
-
     .img-wrap {
         overflow: hidden;
         border-radius: 50%;
         border: 0.5rem solid #fab536;
-
         img {
             float: left;
         }
@@ -34,7 +30,6 @@
 
 .profile-detail {
     text-transform: uppercase;
-
     .name {
         font-size: 6.5rem;
         color: $clr-black;
@@ -44,23 +39,20 @@
         font-family: $font2;
         line-height: 7.5rem;
     }
-
     .designation {
         font-size: 2.2rem;
         color: $clr-primary;
         letter-spacing: 1px;
     }
-
     .about {
         margin-top: 2.5rem;
         text-transform: none;
     }
 }
 
-
 @media only screen and (max-width: $media-lg) {
     .comp-header {
-        padding: 5rem;
+        padding: 5rem 0;
     }
 }
 
@@ -69,12 +61,10 @@
         .profile-pic {
             max-width: 22rem;
         }
-
         .cont-wrapper {
             grid-gap: 2rem;
         }
     }
-
     .profile-detail {
         .name {
             font-size: 5rem;
@@ -85,25 +75,22 @@
 
 @media only screen and (max-width: $media-md) {
     .comp-header {
-        padding: 3rem 2.2rem;
+        padding: 3rem 0;
     }
-
     .profile-detail {
         .name {
             font-size: 4.2rem;
             line-height: 4.6rem;
             margin-bottom: 1rem;
         }
-
         .about {
             margin-top: 1.6rem;
         }
     }
 }
 
-
 @media only screen and (max-width: $media-xs) {
     .comp-header {
-        padding: 2.2rem;
+        padding: 2.2rem 0;
     }
 }

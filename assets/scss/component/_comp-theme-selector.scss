@@ -1,0 +1,77 @@
+.comp-theme-selector {
+    position: absolute;
+    right: -4rem;
+    z-index: 0;
+    top: 2rem;
+    .list {
+        .item {
+            margin-bottom: 2rem;
+            border-radius: 0 2rem 2rem 0;
+            font-size: 1.4rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 13rem;
+            color: $clr-white;
+            height: 4rem;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all 0.25s ease-in-out;
+            span {
+                opacity: 0;
+                transition: all 0.25s ease-in-out;
+                position: absolute;
+                left: 100%;
+                white-space: nowrap;
+            }
+            &:hover {
+                transform: translateX(9rem);
+                span {
+                    opacity: 1;
+                    left: 2rem;
+                }
+            }
+        }
+        .theme-default {
+            background-color: black;
+        }
+        .theme-1 {
+            background-color: $clr-theme-1;
+            color: $clr-black;
+        }
+        .theme-2 {
+            background-color: $clr-theme-2;
+        }
+        .theme-3 {
+            background-color: $clr-theme-3;
+        }
+        .theme-4 {
+            background-color: $clr-theme-4;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .comp-theme-selector {
+        right: 0;
+        top: 0;
+        z-index: 2;
+        .list {
+            display: flex;
+            .item {
+                margin-right: 0.5rem;
+                margin-bottom: 0;
+                border-radius: 0 0 2rem 2rem;
+                width: 4rem;
+                height: 4rem;
+                cursor: pointer;
+                span {
+                    display: none;
+                }
+                &:hover {
+                    transform: none;
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,6 @@
 <!-- build:css assets/css/libraries.css -->
 <!-- endbuild -->
-<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700|Dosis:400,500,600,700|Roboto+Condensed:400,700&display=swap"
-        rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,700|Dosis:400,500,600,700|Roboto+Condensed:400,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <!-- <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> -->

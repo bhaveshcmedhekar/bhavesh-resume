@@ -16,15 +16,25 @@
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <!-- header start -->
-            <!--#include virtual="view/header.html" -->
-            <!-- header end -->
-        </header>
+    <main>
+        <div class="main">
+            <div class="comp-theme-selector">
+                <ul class="list">
+                    <li class="item theme-default" data-theme="theme-default"><span>Theme Default</span></li>
+                    <li class="item theme-1" data-theme="theme-1"><span>Theme 1</span></li>
+                    <li class="item theme-2" data-theme="theme-2"><span>Theme 2</span></li>
+                    <li class="item theme-3" data-theme="theme-3"><span>Theme 3</span></li>
+                    <!-- <li class="item theme-4" data-theme="theme-4"><span>Theme 4</span></li> -->
+                </ul>
+            </div>
+            <div class="container">
+                <header>
+                    <!-- header start -->
+                    <!--#include virtual="view/header.html" -->
+                    <!-- header end -->
+                </header>
 
-        <main>
-            <div class="main">
+
                 <div class="cont-wrapper">
                     <div class="lhs">
                         <div class="comp-contact">
@@ -98,7 +108,15 @@
                                     <div class="label">Bootstrap</div>
                                     <div class="progress">
                                         <div class="pbar-border">
-                                            <div class="pbar-fill" style="width:75%"></div>
+                                            <div class="pbar-fill" style="width:70%"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <div class="label">Magento 1.x/2.x</div>
+                                    <div class="progress">
+                                        <div class="pbar-border">
+                                            <div class="pbar-fill" style="width:77%"></div>
                                         </div>
                                     </div>
                                 </li>
@@ -133,34 +151,33 @@
                         <div class="comp-skillsets ">
                             <h2 class="cm-title">skillsets</h2>
                             <ul class="bullet-points">
-                                <li class="bullet-item">Converting designs into web page using HTML, CSS and
-                                    Responsive Web Development along with device/browser compatibility.</li>
-                                <li class="bullet-item">Worked with project managers to gather project requirements, and
-                                    estimate project timelines.</li>
+                                <li class="bullet-item">Converting designs into web page using HTML, CSS and Responsive Web Development along with device/browser compatibility.</li>
+                                <li class="bullet-item">Worked with project managers to gather project requirements, and estimate project timelines.</li>
                                 <li class="bullet-item">Ensure the technical feasibility of UI/UX designs.</li>
                                 <li class="bullet-item">Optimize application for maximum speed and scalability.</li>
                                 <li class="bullet-item">Build modular code and libraries for future use.</li>
                                 <li class="bullet-item">Participating in meaningful and thorough code reviews.</li>
-                                <li class="bullet-item">Helping to ensure the performance, quality and responsiveness of
-                                    the application.</li>
-                                <li class="bullet-item">Collaborating with the different backend team to integrate UI
-                                    and functionality.</li>
-                                <li class="bullet-item">Created custom jQuery plugins and published on github for
-                                    external use.</li>
-                                <li class="bullet-item">Introduce new technology and techniques in the project for
-                                    enhancement.</li>
+                                <li class="bullet-item">Helping to ensure the performance, quality and responsiveness of the application.</li>
+                                <li class="bullet-item">Collaborating with the different backend team to integrate UI and functionality.</li>
+                                <li class="bullet-item">Created custom jQuery plugins and published on github for external use.</li>
+                                <li class="bullet-item">Introduce new technology and techniques in the project for enhancement.
+                                </li>
                                 <li class="bullet-item"> Handled multiple projects at the same time.</li>
-                                <li class="bullet-item">Handled and help other teammates in their respective projects in
-                                    critical situations.</li>
-                                <li class="bullet-item">Mentoring juniors for jQuery and Magento and solving doubts and
-                                    issues related to it.</li>
+                                <li class="bullet-item">Handled and help other teammates in their respective projects in critical situations.</li>
+                                <li class="bullet-item">Mentoring juniors for jQuery and Magento and solving doubts and issues related to it.</li>
                             </ul>
                         </div>
                         <div class="comp-work cm-margin-top">
                             <h2 class="cm-title">Work Experience</h2>
                             <div class="comp-list">
+                                <h3 class="cm-subtitle">Saint Gobain, Andheri</h3>
+                                <span class="year">July-21 to till date</span>
+                                <p class="theme-text">Senior Interface Developer</p>
+                            </div>
+
+                            <div class="comp-list">
                                 <h3 class="cm-subtitle">Fractal Ink Design Studio, ​Worli</h3>
-                                <span class="year">Oct-17 to till date</span>
+                                <span class="year">Oct-17 to June-2021</span>
                                 <p class="theme-text">Senior Interface Developer</p>
                             </div>
 
@@ -191,45 +208,43 @@
                     </div>
                 </div>
                 <div class="comp-projects cm-margin-top">
-                    <h2 class="cm-title">PROJECTHIGHLIGHTS</h2>
+                    <h2 class="cm-title">PROJECT HIGHLIGHTS</h2>
                     <ul class="list">
-                        <li class="item">
-                            <a href="https://www.payu.in/" target="_blank"><span> PayU</span></a>
-                        </li>
                         <li class="item">
                             <a href="https://fractalink.com/works/ultratech/" target="_blank"><span>Ultratech
                                     (Angular)</span></a>
                         </li>
                         <li class="item">
-                            <a href="https://www.bajajfinservmarkets.in/" target="_blank"><span>Bajaj Finserv
-                                    Markets</span></a>
-                        </li>
-                        <li class="item">
-                            <a href="https://www.bajajfinservspotlight.in/pocket-insurance/" target="_blank"><span>Bajaj
-                                    Finserv (Campaign)</span></a>
-                        </li>
-                        <li class="item">
-                            <a href="https://www.axisamc.com/" target="_blank"><span>Axis AMC</span></a>
-                        </li>
-                        <li class="item">
-                            <a href="https://www.birlaestates.com/birla-vanya-1-bhk-2-bhk-flats-kalyan/"
-                                target="_blank"><span>birla Estates (vanya
+                            <a href="https://www.birlaestates.com/birla-vanya-1-bhk-2-bhk-flats-kalyan/" target="_blank"><span>birla Estates (vanya
                                     - kalyan)</span></a>
                         </li>
                         <li class="item">
-                            <a href="https://hicare.in/" target="_blank"><span>Hicare (Magento 2)</span></a>
+                            <a><span> PayU</span></a>
+                        </li>
+                        <li class="item">
+                            <a><span>Bajaj Finserv Markets</span></a>
+                        </li>
+                        <li class="item">
+                            <a><span>Bajaj Finserv (Campaign)</span></a>
+                        </li>
+                        <li class="item">
+                            <a><span>Axis AMC</span></a>
+                        </li>
+                        <li class="item">
+                            <a><span>Hicare (Magento 2)</span></a>
                         </li>
                     </ul>
                 </div>
-            </div>
-        </main>
 
-        <footer>
-            <!-- footer start -->
-            <!--#include virtual="view/footer.html" -->
-            <!-- footer end -->
-        </footer>
-    </div>
+
+                <footer>
+                    <!-- footer start -->
+                    <!--#include virtual="view/footer.html" -->
+                    <!-- footer end -->
+                </footer>
+            </div>
+        </div>
+    </main>
     <!-- js group start -->
     <!--#include virtual="view/include_js.html" -->
     <!-- js group end -->

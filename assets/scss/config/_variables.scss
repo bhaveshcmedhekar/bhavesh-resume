@@ -4,13 +4,21 @@ $clr-white:#ffffff;
 $clr-black:#000000;
 $clr-primary:#fab536;
 $clr-base-light:#666;
+$clr-theme-default: #fab536;
+$clr-theme-1: #e7b202;
+$clr-theme-2: #007cc7;
+$clr-theme-3: #64ca64;
+$clr-theme-4: #f65c50;
+// remove this 
+// $clr-white:#666;
+// $clr-black:#666;
+// $clr-primary:#666;
 
 /*font family*/
 
 $font:"Baloo Da 2";
 $font2:"Roboto Condensed";
 //$font:"Ubuntu";
-
 $font-regular:400;
 $font-light:300;
 $font-medium:500;

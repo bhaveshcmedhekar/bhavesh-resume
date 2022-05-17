@@ -1,0 +1,82 @@
+body {
+    &.theme-1 {
+        color: #fff;
+        background-color: #054632;
+    }
+}
+
+.theme-1 {
+    .container {
+        background-color: #03533a;
+        text-shadow: 1px 1px 0 #000;
+        &:before {
+            background: rgb(231, 178, 2, 0.2);
+        }
+        &:after {
+            background: rgb(231, 178, 2, 0.2);
+        }
+    }
+    a {
+        &:hover {
+            color: $clr-theme-1;
+        }
+    }
+    .cm-title {
+        color: $clr-white;
+    }
+    .cm-subtitle {
+        color: $clr-white;
+    }
+    .theme-text {
+        color: $clr-theme-1;
+    }
+    .comp-header {
+        .profile-pic {
+            background: $clr-theme-1;
+            &:before {
+                background: $clr-theme-1;
+            }
+        }
+        .img-wrap {
+            border: .5rem solid $clr-theme-1;
+        }
+    }
+    .profile-detail {
+        .name {
+            color: $clr-white;
+        }
+        .designation {
+            color: $clr-theme-1;
+        }
+    }
+    .comp-contact {
+        .item {
+            &:before {
+                color: $clr-theme-1;
+            }
+        }
+    }
+    .comp-skills {
+        .progress {
+            .pbar-border {
+                background: #f2f2f2;
+            }
+            .pbar-fill {
+                background: $clr-theme-1;
+            }
+        }
+    }
+    .comp-projects {
+        .item {
+            a {
+                background: transparent;
+                color: #fff;
+                text-shadow: 1px 1px 0 $clr-black;
+                border: 1px solid #fff;
+                &:before {
+                    background: $clr-theme-1;
+                }
+            }
+        }
+    }
+}
